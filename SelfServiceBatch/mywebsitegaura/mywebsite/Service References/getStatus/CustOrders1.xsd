@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://dao.com/" targetNamespace="http://dao.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="getCustOrders" type="tns:getCustOrders" />
+  <xs:element name="getCustOrders1" type="tns:getCustOrders1" />
+  <xs:element name="getCustOrders1Response" type="tns:getCustOrders1Response" />
+  <xs:element name="getCustOrders2" type="tns:getCustOrders2" />
+  <xs:element name="getCustOrders2Response" type="tns:getCustOrders2Response" />
+  <xs:element name="getCustOrders3" type="tns:getCustOrders3" />
+  <xs:element name="getCustOrders3Response" type="tns:getCustOrders3Response" />
+  <xs:element name="getCustOrders4" type="tns:getCustOrders4" />
+  <xs:element name="getCustOrders4Response" type="tns:getCustOrders4Response" />
+  <xs:element name="getCustOrders5" type="tns:getCustOrders5" />
+  <xs:element name="getCustOrders5Response" type="tns:getCustOrders5Response" />
+  <xs:element name="getCustOrdersResponse" type="tns:getCustOrdersResponse" />
+  <xs:complexType name="getCustOrders2">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders2Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:custOrders2" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="custOrders2">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="completionDate" type="xs:dateTime" />
+      <xs:element name="customerID" type="xs:int" />
+      <xs:element minOccurs="0" name="dueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="negotiationDate" type="xs:dateTime" />
+      <xs:element name="orderId" type="xs:int" />
+      <xs:element minOccurs="0" name="orderStatus" type="xs:string" />
+      <xs:element minOccurs="0" name="orderType" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders3">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders3Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:custOrders3" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="custOrders3">
+    <xs:sequence>
+      <xs:element name="orderID" type="xs:int" />
+      <xs:element minOccurs="0" name="productDescription" type="xs:string" />
+      <xs:element minOccurs="0" name="productID" type="xs:string" />
+      <xs:element name="productQuantity" type="xs:int" />
+      <xs:element minOccurs="0" name="serviceID" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders4">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders4Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:custOrders4" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="custOrders4">
+    <xs:sequence>
+      <xs:element name="customerID" type="xs:int" />
+      <xs:element minOccurs="0" name="serviceCurrentStatus" type="xs:string" />
+      <xs:element minOccurs="0" name="serviceEffectiveDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="serviceEndDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="serviceID" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders5">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders5Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:custOrders5" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="custOrders5">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="serviceID" type="xs:string" />
+      <xs:element minOccurs="0" name="serviceName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders1">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders1Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:custOrders1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="custOrders1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="addLine1" type="xs:string" />
+      <xs:element minOccurs="0" name="addLine2" type="xs:string" />
+      <xs:element name="addressID" type="xs:int" />
+      <xs:element minOccurs="0" name="city" type="xs:string" />
+      <xs:element minOccurs="0" name="state" type="xs:string" />
+      <xs:element minOccurs="0" name="stateCode" type="xs:string" />
+      <xs:element name="zipCode" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrders">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustOrdersResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:custOrders" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="custOrders">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="billPaymentMethod" type="xs:string" />
+      <xs:element name="billingAddID" type="xs:int" />
+      <xs:element minOccurs="0" name="customerEmailID" type="xs:string" />
+      <xs:element minOccurs="0" name="customerFname" type="xs:string" />
+      <xs:element name="customerID" type="xs:int" />
+      <xs:element minOccurs="0" name="customerLname" type="xs:string" />
+      <xs:element name="customerMobNo" type="xs:long" />
+      <xs:element minOccurs="0" name="customerStatus" type="xs:string" />
+      <xs:element minOccurs="0" name="customerType" type="xs:string" />
+      <xs:element name="serviceAddID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

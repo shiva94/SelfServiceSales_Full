@@ -1,0 +1,6 @@
+C:\Users\admi\Desktop\update_products\product_change\product_change\bin\product_change.dll
+C:\Users\admi\Desktop\update_products\product_change\product_change\bin\product_change.pdb
+C:\Users\admi\Desktop\update_products\product_change\product_change\bin\Oracle.DataAccess.dll
+C:\Users\admi\Desktop\update_products\product_change\product_change\obj\Debug\product_change.dll
+C:\Users\admi\Desktop\update_products\product_change\product_change\obj\Debug\product_change.pdb
+C:\Users\admi\Desktop\update_products\product_change\product_change\obj\Debug\product_change.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\admin\Desktop\myproject\accountdetails\accountdetails\bin\accountdetails.dll
+C:\Users\admin\Desktop\myproject\accountdetails\accountdetails\bin\accountdetails.pdb
+C:\Users\admin\Desktop\myproject\accountdetails\accountdetails\obj\Debug\accountdetails.dll
+C:\Users\admin\Desktop\myproject\accountdetails\accountdetails\obj\Debug\accountdetails.pdb
+C:\Users\admi\Desktop\update_products\accountdetails\accountdetails\bin\accountdetails.dll
+C:\Users\admi\Desktop\update_products\accountdetails\accountdetails\bin\accountdetails.pdb
+C:\Users\admi\Desktop\update_products\accountdetails\accountdetails\obj\Debug\accountdetails.dll
+C:\Users\admi\Desktop\update_products\accountdetails\accountdetails\obj\Debug\accountdetails.pdb
+C:\Users\admi\Desktop\update_products\accountdetails\accountdetails\obj\Debug\accountdetails.csprojResolveAssemblyReference.cache

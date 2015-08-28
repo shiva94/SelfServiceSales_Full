@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://dao.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="CustDao1Service" targetNamespace="http://dao.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://192.168.0.121:1902/CustOrders?xsd=1" namespace="http://dao.com/" />
+    </xsd:schema>
+  </types>
+  <message name="getCustOrders">
+    <part name="parameters" element="tns:getCustOrders" />
+  </message>
+  <message name="getCustOrdersResponse">
+    <part name="parameters" element="tns:getCustOrdersResponse" />
+  </message>
+  <message name="getCustOrders1">
+    <part name="parameters" element="tns:getCustOrders1" />
+  </message>
+  <message name="getCustOrders1Response">
+    <part name="parameters" element="tns:getCustOrders1Response" />
+  </message>
+  <message name="getCustOrders2">
+    <part name="parameters" element="tns:getCustOrders2" />
+  </message>
+  <message name="getCustOrders2Response">
+    <part name="parameters" element="tns:getCustOrders2Response" />
+  </message>
+  <message name="getCustOrders3">
+    <part name="parameters" element="tns:getCustOrders3" />
+  </message>
+  <message name="getCustOrders3Response">
+    <part name="parameters" element="tns:getCustOrders3Response" />
+  </message>
+  <message name="getCustOrders4">
+    <part name="parameters" element="tns:getCustOrders4" />
+  </message>
+  <message name="getCustOrders4Response">
+    <part name="parameters" element="tns:getCustOrders4Response" />
+  </message>
+  <message name="getCustOrders5">
+    <part name="parameters" element="tns:getCustOrders5" />
+  </message>
+  <message name="getCustOrders5Response">
+    <part name="parameters" element="tns:getCustOrders5Response" />
+  </message>
+  <portType name="CustDao1">
+    <operation name="getCustOrders">
+      <input wsam:Action="http://dao.com/CustDao1/getCustOrdersRequest" message="tns:getCustOrders" />
+      <output wsam:Action="http://dao.com/CustDao1/getCustOrdersResponse" message="tns:getCustOrdersResponse" />
+    </operation>
+    <operation name="getCustOrders1">
+      <input wsam:Action="http://dao.com/CustDao1/getCustOrders1Request" message="tns:getCustOrders1" />
+      <output wsam:Action="http://dao.com/CustDao1/getCustOrders1Response" message="tns:getCustOrders1Response" />
+    </operation>
+    <operation name="getCustOrders2">
+      <input wsam:Action="http://dao.com/CustDao1/getCustOrders2Request" message="tns:getCustOrders2" />
+      <output wsam:Action="http://dao.com/CustDao1/getCustOrders2Response" message="tns:getCustOrders2Response" />
+    </operation>
+    <operation name="getCustOrders3">
+      <input wsam:Action="http://dao.com/CustDao1/getCustOrders3Request" message="tns:getCustOrders3" />
+      <output wsam:Action="http://dao.com/CustDao1/getCustOrders3Response" message="tns:getCustOrders3Response" />
+    </operation>
+    <operation name="getCustOrders4">
+      <input wsam:Action="http://dao.com/CustDao1/getCustOrders4Request" message="tns:getCustOrders4" />
+      <output wsam:Action="http://dao.com/CustDao1/getCustOrders4Response" message="tns:getCustOrders4Response" />
+    </operation>
+    <operation name="getCustOrders5">
+      <input wsam:Action="http://dao.com/CustDao1/getCustOrders5Request" message="tns:getCustOrders5" />
+      <output wsam:Action="http://dao.com/CustDao1/getCustOrders5Response" message="tns:getCustOrders5Response" />
+    </operation>
+  </portType>
+  <binding name="CustDao1PortBinding" type="tns:CustDao1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getCustOrders">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCustOrders1">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCustOrders2">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCustOrders3">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCustOrders4">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCustOrders5">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="CustDao1Service">
+    <port name="CustDao1Port" binding="tns:CustDao1PortBinding">
+      <soap:address location="http://192.168.0.121:1902/CustOrders" />
+    </port>
+  </service>
+</definitions>

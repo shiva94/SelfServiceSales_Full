@@ -1,0 +1,9 @@
+C:\Users\admin\Desktop\myproject\get_serviceidname\get_serviceidname\bin\get_serviceidname.dll
+C:\Users\admin\Desktop\myproject\get_serviceidname\get_serviceidname\bin\get_serviceidname.pdb
+C:\Users\admin\Desktop\myproject\get_serviceidname\get_serviceidname\obj\Debug\get_serviceidname.dll
+C:\Users\admin\Desktop\myproject\get_serviceidname\get_serviceidname\obj\Debug\get_serviceidname.pdb
+C:\Users\admi\Desktop\update_products\get_serviceidname\get_serviceidname\bin\get_serviceidname.dll
+C:\Users\admi\Desktop\update_products\get_serviceidname\get_serviceidname\bin\get_serviceidname.pdb
+C:\Users\admi\Desktop\update_products\get_serviceidname\get_serviceidname\obj\Debug\get_serviceidname.dll
+C:\Users\admi\Desktop\update_products\get_serviceidname\get_serviceidname\obj\Debug\get_serviceidname.pdb
+C:\Users\admi\Desktop\update_products\get_serviceidname\get_serviceidname\obj\Debug\get_serviceidname.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+C:\Users\admi\Desktop\update_products\get_servicename\get_servicename\bin\get_servicename.dll
+C:\Users\admi\Desktop\update_products\get_servicename\get_servicename\bin\get_servicename.pdb
+C:\Users\admi\Desktop\update_products\get_servicename\get_servicename\obj\Debug\get_servicename.dll
+C:\Users\admi\Desktop\update_products\get_servicename\get_servicename\obj\Debug\get_servicename.pdb

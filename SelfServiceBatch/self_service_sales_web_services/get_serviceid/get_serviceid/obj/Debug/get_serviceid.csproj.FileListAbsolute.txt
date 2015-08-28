@@ -1,0 +1,4 @@
+C:\Users\admi\Desktop\update_products\get_serviceid\get_serviceid\bin\get_serviceid.dll
+C:\Users\admi\Desktop\update_products\get_serviceid\get_serviceid\bin\get_serviceid.pdb
+C:\Users\admi\Desktop\update_products\get_serviceid\get_serviceid\obj\Debug\get_serviceid.dll
+C:\Users\admi\Desktop\update_products\get_serviceid\get_serviceid\obj\Debug\get_serviceid.pdb

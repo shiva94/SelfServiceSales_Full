@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\myproject\get_servicenamestatus\get_servicenamestatus\bin\get_servicenamestatus.dll
+C:\Users\admin\Desktop\myproject\get_servicenamestatus\get_servicenamestatus\bin\get_servicenamestatus.pdb
+C:\Users\admin\Desktop\myproject\get_servicenamestatus\get_servicenamestatus\obj\Debug\get_servicenamestatus.dll
+C:\Users\admin\Desktop\myproject\get_servicenamestatus\get_servicenamestatus\obj\Debug\get_servicenamestatus.pdb
+C:\Users\admi\Desktop\update_products\get_servicenamestatus\get_servicenamestatus\bin\get_servicenamestatus.dll
+C:\Users\admi\Desktop\update_products\get_servicenamestatus\get_servicenamestatus\bin\get_servicenamestatus.pdb
+C:\Users\admi\Desktop\update_products\get_servicenamestatus\get_servicenamestatus\obj\Debug\get_servicenamestatus.dll
+C:\Users\admi\Desktop\update_products\get_servicenamestatus\get_servicenamestatus\obj\Debug\get_servicenamestatus.pdb

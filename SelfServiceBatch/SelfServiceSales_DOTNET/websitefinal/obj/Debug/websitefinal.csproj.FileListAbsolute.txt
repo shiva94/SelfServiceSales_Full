@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\myproject\websitefinal\websitefinal\bin\websitefinal.dll
+C:\Users\admin\Desktop\myproject\websitefinal\websitefinal\bin\websitefinal.pdb
+C:\Users\admin\Desktop\myproject\websitefinal\websitefinal\obj\Debug\websitefinal.dll
+C:\Users\admin\Desktop\myproject\websitefinal\websitefinal\obj\Debug\websitefinal.pdb
+C:\Users\admin\Desktop\websitefinal\websitefinal\bin\websitefinal.dll
+C:\Users\admin\Desktop\websitefinal\websitefinal\bin\websitefinal.pdb
+C:\Users\admin\Desktop\websitefinal\websitefinal\obj\Debug\websitefinal.dll
+C:\Users\admin\Desktop\websitefinal\websitefinal\obj\Debug\websitefinal.pdb
+C:\Users\admin\Desktop\websitefinal\websitefinal\bin\Oracle.DataAccess.dll
+C:\Users\admin\Desktop\websitefinal\websitefinal\obj\Debug\websitefinal.csprojResolveAssemblyReference.cache

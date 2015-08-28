@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://dao.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="CustDao1Service" targetNamespace="http://dao.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://192.168.0.121:1908/CustomerOrders?xsd=1" namespace="http://dao.com/" />
+    </xsd:schema>
+  </types>
+  <message name="getCustOrders">
+    <part name="parameters" element="tns:getCustOrders" />
+  </message>
+  <message name="getCustOrdersResponse">
+    <part name="parameters" element="tns:getCustOrdersResponse" />
+  </message>
+  <portType name="CustDao1">
+    <operation name="getCustOrders">
+      <input wsam:Action="http://dao.com/CustDao1/getCustOrdersRequest" message="tns:getCustOrders" />
+      <output wsam:Action="http://dao.com/CustDao1/getCustOrdersResponse" message="tns:getCustOrdersResponse" />
+    </operation>
+  </portType>
+  <binding name="CustDao1PortBinding" type="tns:CustDao1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getCustOrders">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="CustDao1Service">
+    <port name="CustDao1Port" binding="tns:CustDao1PortBinding">
+      <soap:address location="http://192.168.0.121:1908/CustomerOrders" />
+    </port>
+  </service>
+</definitions>

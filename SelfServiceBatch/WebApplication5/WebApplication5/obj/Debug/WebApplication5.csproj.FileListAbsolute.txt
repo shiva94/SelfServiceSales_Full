@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\dotnet\day16\WebApplication5\WebApplication5\bin\WebApplication5.dll
+C:\Users\admin\Desktop\dotnet\day16\WebApplication5\WebApplication5\bin\WebApplication5.pdb
+C:\Users\admin\Desktop\dotnet\day16\WebApplication5\WebApplication5\obj\Debug\WebApplication5.dll
+C:\Users\admin\Desktop\dotnet\day16\WebApplication5\WebApplication5\obj\Debug\WebApplication5.pdb
+E:\WebApplication5\WebApplication5\bin\WebApplication5.dll
+E:\WebApplication5\WebApplication5\bin\WebApplication5.pdb
+E:\WebApplication5\WebApplication5\obj\Debug\WebApplication5.dll
+E:\WebApplication5\WebApplication5\obj\Debug\WebApplication5.pdb

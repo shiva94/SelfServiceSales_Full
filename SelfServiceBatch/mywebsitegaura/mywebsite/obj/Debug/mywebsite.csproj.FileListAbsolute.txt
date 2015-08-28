@@ -1,0 +1,13 @@
+C:\Users\admin\Desktop\myproject\mywebsite\mywebsite\bin\mywebsite.dll
+C:\Users\admin\Desktop\myproject\mywebsite\mywebsite\bin\mywebsite.pdb
+C:\Users\admin\Desktop\myproject\mywebsite\mywebsite\obj\Debug\mywebsite.dll
+C:\Users\admin\Desktop\myproject\mywebsite\mywebsite\obj\Debug\mywebsite.pdb
+C:\Users\admin\Desktop\mywebsite\mywebsite\bin\mywebsite.dll
+C:\Users\admin\Desktop\mywebsite\mywebsite\bin\mywebsite.pdb
+C:\Users\admin\Desktop\mywebsite\mywebsite\obj\Debug\mywebsite.dll
+C:\Users\admin\Desktop\mywebsite\mywebsite\obj\Debug\mywebsite.pdb
+C:\Users\admin\Desktop\mywebsitegaura\mywebsite\bin\mywebsite.dll
+C:\Users\admin\Desktop\mywebsitegaura\mywebsite\bin\mywebsite.pdb
+C:\Users\admin\Desktop\mywebsitegaura\mywebsite\obj\Debug\mywebsite.dll
+C:\Users\admin\Desktop\mywebsitegaura\mywebsite\obj\Debug\mywebsite.pdb
+C:\Users\admin\Desktop\mywebsitegaura\mywebsite\obj\Debug\mywebsite.csprojResolveAssemblyReference.cache

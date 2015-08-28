@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="mywebsite.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        #navigation
+        {
+        
+       height:0px;
+        margin:0px;
+        display:block;
+        
+        }
+        #navigation ul
+        {
+        padding:0px;
+        height:auto;
+        list-style:none;
+        
+        }
+        #navigation ul li
+        {
+        float: left;
+        text-align:left;
+        width:160px;
+        margin :0px;
+       
+       }
+       #navigation ul li a
+       {
+       color:White;
+       text-decoration:'underline';
+       font-family:Papyrus;
+       font-weight:bold;
+       background:#f00;
+       display:block;
+    padding:30px;
+       width:100px;
+            height: 18px;
+            margin:left;
+        }
+       #navigation li a:hover
+       {
+       background:#00f;
+       color:Yellow;
+       }
+       #navigation ul li ul
+       {
+       display:none;
+       }
+       #navigation ul li:hover ul
+       {
+       display:block;
+       }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="navigation"  
+        style="position: fixed; top: 41px; left: 68px; width: 1188px;">
+      <ul>
+      <li><a href="#">My Services</a>
+      <ul>
+      <li><a href="WebForm1.aspx">Manage Services</a> </li>
+      <li><a href="WebForm1.aspx">Suspend/Retrive Services</a> </li>
+      </ul>
+      </li>
+      <li><a href="#">My Account</a>
+      <ul>
+      <li><a href="WebForm1.aspx">My Profile</a> </li>
+      <li><a href="WebForm1.aspx">Change Passowrd</a> </li>
+      </ul>
+      </li>
+     <li><a href="WebForm1.aspx">Track My Order</a> </li>
+     <li><a href="#">My bill</a>
+     <ul>
+     <li><a href="WebForm1.aspx">View Bill</a> </li>
+     <li><a href="WebForm1.aspx">Pay Bill</a> </li>
+     </ul>
+     
+     </li>
+     <li><a href="WebForm1.aspx">Support</a> </li>
+     <li><a href="WebForm1.aspx">Log Out</a> </li>
+      
+      </ul>  
+    </div>
+    </form>
+</body>
+</html>
